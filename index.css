@@ -17,6 +17,7 @@ img {
  height: 48px;
  margin-bottom: 32px;
  margin-top: 72px;
+ display: block;
 }
 h1 {
     font-size: 3rem;
@@ -38,6 +39,7 @@ section {
 
 }
 div.form {
+    min-height: 100%; /* Ajusta según tu contenido */
     background-color: #FFFFFF;
     padding: 32px; 
     border-radius: 12px;
